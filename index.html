@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Configuración de la página -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explora la gimnasia y el tenis en una página educativa con contenido accesible.">
+    <title>En Movimiento · Gimnasia y tenis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer>
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+    <!-- Encabezado y navegación -->
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="En Movimiento, inicio"><span class="brand-icon" aria-hidden="true">↗</span> EN MOVIMIENTO<span class="brand-dot" aria-hidden="true">.</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#deportes">Los deportes</a>
+        <a href="#comparativa">Comparativa</a>
+        <a class="nav-cta" href="#participa">Participa <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main id="contenido" tabindex="-1">
+      <!-- Portada -->
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true">●</span> DOS DISCIPLINAS. MUCHAS POSIBILIDADES.</p>
+          <h1 id="hero-title">Encuentra tu<br>forma de <em>moverte.</em></h1>
+          <p class="hero-description">La precisión del tenis. La expresión de la gimnasia. Descubre dos maneras de disfrutar el deporte y superar tus propios retos.</p>
+          <a class="button dark" href="#deportes">Explora los deportes <span aria-hidden="true">↗</span></a>
+          <div class="hero-note">
+            <span aria-hidden="true">✳</span>
+            <p>El movimiento es para todos.<br><strong>Cada persona tiene su propio ritmo.</strong></p>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/tenis.svg" alt="Ilustración de una raqueta y una pelota amarilla sobre una cancha de tenis verde.">
+          <span class="image-tag">ENCUENTRA TU RITMO</span>
+          <span class="vertical-text" aria-hidden="true">JUEGA · EXPLORA · DISFRUTA</span>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <span>PRECISIÓN</span>
+        ✳
+        <span>EQUILIBRIO</span>
+        ✳
+        <span>CONSTANCIA</span>
+        ✳
+        <span>EXPRESIÓN</span>
+        ✳
+        <span>MOVIMIENTO</span>
+        ✳
+      </div>
+      <!-- Gimnasia y tenis -->
+      <section class="section" id="deportes" aria-labelledby="sports-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / EXPLORA</p>
+            <h2 id="sports-title">Dos deportes, una misma pasión.</h2>
+          </div>
+          <p>Conoce lo que hace especial<br>a cada disciplina.</p>
+        </div>
+        <div class="sport-grid">
+          <article class="sport-card">
+            <div class="sport-image gym-image">
+              <img src="assets/gimnasia.svg" alt="Ilustración de una gimnasta en equilibrio sobre una pierna, con la otra elevada y los brazos extendidos." loading="lazy">
+              <span class="sport-number" aria-hidden="true">01</span>
+            </div>
+            <div class="sport-info">
+              <p class="eyebrow">CONTROL + EXPRESIÓN</p>
+              <h3>Gimnasia</h3>
+              <p>Combina fuerza, flexibilidad y coordinación. En sus distintas modalidades, el cuerpo se convierte en una forma de expresión a través de saltos, equilibrios y secuencias de movimiento.</p>
+              <a href="https://www.gymnastics.sport/">Explorar la Federación Internacional de Gimnasia <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="sport-card">
+            <div class="sport-image tennis-image">
+              <img src="assets/tenis.svg" alt="Ilustración de una raqueta y una pelota sobre las líneas de una cancha de tenis." loading="lazy">
+              <span class="sport-number" aria-hidden="true">02</span>
+            </div>
+            <div class="sport-info">
+              <p class="eyebrow">ESTRATEGIA + PRECISIÓN</p>
+              <h3>Tenis</h3>
+              <p>Cada intercambio es una nueva decisión. Con una raqueta y una pelota, dos o cuatro jugadores ponen en práctica su coordinación, sus reflejos y su estrategia a ambos lados de la red.</p>
+              <a href="https://www.itftennis.com/">Explorar la Federación Internacional de Tenis <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Tabla comparativa -->
+      <section class="comparison section" id="comparativa" aria-labelledby="comparison-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / CONOCE</p>
+            <h2 id="comparison-title">Cada disciplina tiene su esencia.</h2>
+          </div>
+          <p>Una mirada a sus características<br>para comenzar a explorarlas.</p>
+        </div>
+        <div class="table-wrap" role="region" aria-labelledby="table-caption" tabindex="0">
+          <table>
+            <caption id="table-caption">Características generales de la gimnasia y el tenis</caption>
+            <thead>
+              <tr>
+                <th scope="col">Característica</th>
+                <th scope="col">Gimnasia</th>
+                <th scope="col">Tenis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Habilidades que se practican</th>
+                <td>Equilibrio, fuerza y flexibilidad</td>
+                <td>Coordinación, precisión y reacción</td>
+              </tr>
+              <tr>
+                <th scope="row">Material habitual</th>
+                <td>Colchonetas y aparatos según la modalidad</td>
+                <td>Raqueta, pelota y red</td>
+              </tr>
+              <tr>
+                <th scope="row">Espacio de práctica</th>
+                <td>Gimnasio o espacio acondicionado</td>
+                <td>Cancha de tenis</td>
+              </tr>
+              <tr>
+                <th scope="row">Participación</th>
+                <td>Individual o por equipos, según la modalidad</td>
+                <td>Individuales o dobles</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Formulario de participación -->
+      <section class="participate section" id="participa" aria-labelledby="form-title">
+        <div class="form-intro">
+          <p class="eyebrow">03 / TU TURNO</p>
+          <h2 id="form-title">Tu próximo reto<br>empieza con<br><em>curiosidad.</em></h2>
+          <p>¿Qué deporte te gustaría conocer mejor? Cuéntanos un poco de ti.</p>
+          <p class="demo-note">Formulario de práctica académica. Los datos no se envían ni se guardan.</p>
+        </div>
+        <form id="interest-form">
+          <p class="form-required">Todos los campos son obligatorios.</p>
+          <div class="field">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" autocomplete="given-name" required maxlength="80" placeholder="Escribe tu nombre">
+          </div>
+          <div class="field">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="tu@correo.com">
+          </div>
+          <fieldset>
+            <legend>¿Qué deporte te interesa?</legend>
+            <div class="radio-options">
+              <label><input type="radio" name="sport" value="gimnasia" required> Gimnasia</label>
+              <label><input type="radio" name="sport" value="tenis"> Tenis</label>
+              <label><input type="radio" name="sport" value="ambos"> Ambos</label>
+            </div>
+          </fieldset>
+          <button class="button dark" type="submit">Registrar mi interés <span aria-hidden="true">↗</span></button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+      <a class="brand" href="#inicio">EN MOVIMIENTO.</a>
+      <p>Proyecto académico · Accesibilidad de contenidos</p>
+      <a href="#inicio">Volver al inicio <span aria-hidden="true">↑</span></a>
+    </footer>
+
+  </body>
+</html>
